@@ -1,0 +1,31 @@
+.cardWeather {
+    margin: 15px;
+    padding: 10px 35px 10px;
+    border: 1px solid #517a8d;
+    border-radius: 20px;
+    background:  #dcf4ff;
+    color: #517a8d;
+  }
+  
+.weatherEventImg {
+    height: 100px;
+    width: 100px;
+    float: right;
+    margin: 10px 0 10px 10px;
+}
+
+.dateHeader {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #517a8d;
+}
+
+.weather-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: left; 
+    justify-content: space-between;
+  }
