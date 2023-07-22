@@ -56,7 +56,6 @@ async function createWeatherCards ( data ) {
         temperature.textContent = Math.round(forecast.main.temp) + "°C";
         cardWeather.appendChild(temperature);
 
-
         const weatherEvent = document.createElement("p");
         weatherEvent.classList.add("weather-info");
         weatherEvent.textContent = forecast.weather[0].main;
